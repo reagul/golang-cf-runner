@@ -1,4 +1,5 @@
 package main
+<<<<<<< HEAD
 
 import (
 	"errors"
@@ -179,3 +180,12 @@ func handleError(err error, commandUI UI) error {
 	return ErrFailed
 }
 
+=======
+import(
+	"fmt"
+)
+func main() {
+
+	fmt.Println("hello world via godeps")
+}
+>>>>>>> ffce717797ef1231252e85634ff331b52a345623
