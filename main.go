@@ -7,14 +7,14 @@ import (
 	"os"
 	"reflect"
 	"strings"
-	"github.com/cloudfoundry/cli/cf/cmd"
-	"github.com/cloudfoundry/cli/command"
-	"github.com/cloudfoundry/cli/command/common"
-	"github.com/cloudfoundry/cli/command/v2"
-	"github.com/cloudfoundry/cli/util/configv3"
-	"github.com/cloudfoundry/cli/util/panichandler"
-	"github.com/cloudfoundry/cli/util/ui"
-	"github.com/jessevdk/go-flags"
+	//"github.com/cloudfoundry/cli/cf/cmd"
+	//"github.com/cloudfoundry/cli/command"
+	//"github.com/cloudfoundry/cli/command/common"
+	//"github.com/cloudfoundry/cli/command/v2"
+	//"github.com/cloudfoundry/cli/util/configv3"
+	//"github.com/cloudfoundry/cli/util/panichandler"
+	//"github.com/cloudfoundry/cli/util/ui"
+	//"github.com/jessevdk/go-flags"
 )
 
 type UI interface {
