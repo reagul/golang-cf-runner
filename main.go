@@ -1,5 +1,5 @@
 package main
-<<<<<<< HEAD
+
 
 import (
 	"errors"
@@ -8,12 +8,12 @@ import (
 	"reflect"
 	"strings"
 	"github.com/cloudfoundry/cli/cf/cmd"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/common"
-	"code.cloudfoundry.org/cli/command/v2"
-	"code.cloudfoundry.org/cli/util/configv3"
-	"code.cloudfoundry.org/cli/util/panichandler"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/cloudfoundry/cli/command"
+	"github.com/cloudfoundry/cli/command/common"
+	"github.com/cloudfoundry/cli/command/v2"
+	"github.com/cloudfoundry/cli/util/configv3"
+	"github.com/cloudfoundry/cli/util/panichandler"
+	"github.com/cloudfoundry/cli/util/ui"
 	"github.com/jessevdk/go-flags"
 )
 
@@ -180,12 +180,4 @@ func handleError(err error, commandUI UI) error {
 	return ErrFailed
 }
 
-=======
-import(
-	"fmt"
-)
-func main() {
 
-	fmt.Println("hello world via godeps")
-}
->>>>>>> ffce717797ef1231252e85634ff331b52a345623
